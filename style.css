@@ -1,0 +1,234 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+nav .nav-links {
+    display: flex;
+}
+
+nav .nav-links a {
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav .nav-links a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+nav .auth-links {
+    display: flex;
+    margin-left: auto;
+}
+
+nav .auth-links a {
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav .auth-links a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.hero {
+    color: black;
+    text-align: center;
+    padding: 100px 20px;
+    /* background-color: #4CAF50; */
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+.content h2 {
+    margin-top: 0;
+    font-size: 36px;
+    color: #333;
+}
+
+.about-content p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+.values-box {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.about-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about-list li {
+    font-size: 18px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.about-list li strong {
+    color: #4CAF50;
+}
+.content h2 {
+    margin-top: 0;
+}
+.content h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.content h3 {
+    font-size: 28px;
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+/* Media Query for responsive design */
+@media (max-width: 768px) {
+    .hero {
+        padding: 60px 20px;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .content h2 {
+        font-size: 28px;
+    }
+
+    .values-box {
+        padding: 15px;
+    }
+}
+.tip-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tip-card {
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    text-align: left;
+}
+
+.tip-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.tip-card p {
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+}
+
+.tip-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box; /* Ensures padding is included in width */
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    font-size: 14px; /* Make sure the placeholder text isn't too large */
+    color: #888;
+}
+
+.contact-form textarea {
+    resize: vertical; /* Allows users to resize the text area vertically */
+}
+
+.contact-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
